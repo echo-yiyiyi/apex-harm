@@ -1,6 +1,6 @@
 # APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces
 
-![Average attack success rate (ASR) across twelve models on APEX-Harm. Lower is better.](assets/average-asr.png)
+<img src="assets/average-asr.png" alt="Average attack success rate (ASR) across twelve models on APEX-Harm. Lower is better." width="50%">
 
 APEX-Harm evaluates agent safety in shared professional workspaces across six attack categories, spanning prompt injection, script injection, task-specific replacement, and attacker-provided generic scripts. The evaluation reports attack success rate (ASR), ER, and mean task score to examine safety alongside task performance.
 
@@ -10,8 +10,8 @@ APEX-Harm evaluates agent safety in shared professional workspaces across six at
 
 | Model | Average ASR ↓ | Average ER* | Mean task score ↑ |
 | :--- | ---: | ---: | ---: |
-| Opus 5 | **8%** | 83% | 0.790 |
-| Sonnet 5 | 20% | 73% | 0.767 |
+| Claude Opus 5 | **8%** | 83% | 0.790 |
+| Claude Sonnet 5 | 20% | 73% | 0.767 |
 | GPT-6 Astra | 28% | 49% | 0.758 |
 | Gemini 3.8 Flash | 33% | 89% | **0.877** |
 | GPT-5.6 Luna | 42% | 33% | 0.389 |

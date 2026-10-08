@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 ROWS = [
-    ('Opus 5', 8, 'anthropic'), ('Sonnet 5', 20, 'anthropic'),
+    ('Claude Opus 5', 8, 'anthropic'), ('Claude Sonnet 5', 20, 'anthropic'),
     ('GPT-6 Astra', 28, 'openai'), ('Gemini 3.8 Flash', 33, 'google'),
     ('GPT-5.6 Luna', 42, 'openai'), ('Gemini 3.7 Flash', 46, 'google'),
     ('Kimi K3', 47, 'kimi'), ('DeepSeek V4 Flash', 47, 'deepseek'),
