@@ -17,7 +17,7 @@ PALETTE = {
     'deepseek': ('#5374dd', '#9cd9f2'), 'glm': ('#7971bd', '#cbbce6'),
 }
 S = 2
-im = Image.new('RGB', (1120*S, 1570*S), 'white')
+im = Image.new('RGB', (1120*S, 1530*S), 'white')
 d = ImageDraw.Draw(im)
 font_root = Path('/System/Library/Fonts/Supplemental')
 def font(size, bold=False):
@@ -53,5 +53,4 @@ d.line((left*S,axis*S,right*S,axis*S),fill='#dce0e5',width=2*S)
 for tick in (0,20,40,60):
     x=left+width*tick/60
     text(x,axis+18,f'{tick}%',22,fill='#828b98',anchor='ma')
-text(left,1532,'Reported paper averages; confidence intervals were not provided.',17,fill='#626b78')
 im.save(ROOT / 'assets' / 'average-asr.png')
