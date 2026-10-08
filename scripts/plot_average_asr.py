@@ -53,4 +53,4 @@ d.line((left*S,axis*S,right*S,axis*S),fill='#dce0e5',width=2*S)
 for tick in (0,20,40,60):
     x=left+width*tick/60
     text(x,axis+18,f'{tick}%',22,fill='#828b98',anchor='ma')
-im.save(ROOT / 'assets' / 'average-asr.png')
+im.save(ROOT / 'assets' / 'average-asr-overview.png')
